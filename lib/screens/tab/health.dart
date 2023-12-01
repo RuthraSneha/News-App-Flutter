@@ -53,11 +53,11 @@ class _HealthState extends State<Health> {
                             Image.network(controller.elements[index]["urlToImage"],fit: BoxFit.cover,): Image.asset("assets/images/newslogo.jpg") ,
                           ),
                           const SizedBox(height: 5,),
-                          SizedBox(height: 45,width: 340,
+                          SizedBox(height: 40,width: 340,
                               child: Text(controller.elements[index]["title"],style: const TextStyle(fontSize: 16,letterSpacing: 1),)),
                           const SizedBox(height: 15,),
                           Text(controller.elements[index]["publishedAt"]),
-                          const SizedBox(height: 15,),
+                          const SizedBox(height: 10,),
                           const Divider(color: Colors.black,)
 
                         ],),
