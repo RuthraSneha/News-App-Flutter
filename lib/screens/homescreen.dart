@@ -97,7 +97,7 @@ class _HomeState extends State<Home>with SingleTickerProviderStateMixin {
             ),
             tabs: const [
               Tab(child: Text("General",style: TextStyle(color: Colors.white),),),
-              Tab(child: Text("Bussiness",style: TextStyle(color: Colors.white),),),
+              Tab(child: Text("Business",style: TextStyle(color: Colors.white),),),
               Tab(child: Text("Sports",style: TextStyle(color: Colors.white),),),
               Tab(child: Text("Entertainment",style: TextStyle(color: Colors.white),),),
               Tab(child: Text("Health",style: TextStyle(color: Colors.white),),),
